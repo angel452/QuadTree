@@ -1,3 +1,4 @@
+/*
 #include <vtkActor.h>
 #include <vtkProperty.h>
 #include <vtkCamera.h>
@@ -16,6 +17,7 @@
 #include <vtkRenderer.h>
 #include <vtkUnsignedCharArray.h>
 #include <vtkVertexGlyphFilter.h>
+*/
 
 #include <iostream>
 #include <vector>
@@ -225,14 +227,6 @@ class OcTree{
                         //delete
                     }
                     cout << "naw: " << nodoActual.nPoints <<  " puntos"<< endl; 
-
-                    /*
-                    cout << "** Insert after division **" << endl;
-                    Point *auxDelete2 = new Point(nodoActual.puntos[1].valorX, nodoActual.puntos[1].valorY);
-                    nodoActual.nPoints -= 1; 
-                    //insert(nodoActual.puntos[1].valorX, nodoActual.puntos[1].valorY, *nodoActual.hijos[2] );
-                    insert( auxDelete2 ->valorX , auxDelete2->valorY, *nodoActual.hijos[2] );
-                    */
                 }   
             }
             cout << "-------------------------------------" << endl;
