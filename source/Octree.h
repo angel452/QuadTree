@@ -1,24 +1,3 @@
-/*
-#include <vtkActor.h>
-#include <vtkProperty.h>
-#include <vtkCamera.h>
-#include <vtkCellArray.h>
-#include <vtkFloatArray.h>
-#include <vtkNamedColors.h>
-#include <vtkNew.h>
-#include <vtkPointData.h>
-#include <vtkPoints.h>
-#include <vtkPolyData.h>
-#include <vtkPolyDataMapper.h>
-#include <vtkDataSetMapper.h>
-#include <vtkRenderWindow.h>
-#include <vtkRenderWindowInteractor.h>
-#include <vtkImageData.h>
-#include <vtkRenderer.h>
-#include <vtkUnsignedCharArray.h>
-#include <vtkVertexGlyphFilter.h>
-*/
-
 #include <iostream>
 #include <vector>
 using namespace std;
